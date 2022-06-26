@@ -100,3 +100,13 @@ button.btn-outline-secondary {
 	padding: 20px 30px;
 	border-radius: 10px;
 }
+
+ul {
+	list-style: none;
+}
+
+li.footer-icon {
+	display: inline;
+	float: right;
+	padding: 10px;
+}

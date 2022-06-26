@@ -71,8 +71,8 @@ i {
 	background-color: var(--background-colour-secondary);
 }
 
-.navbar {
-	background-color: var(--brand-colour1);
+.navbar-brand {
+	border-color: var(--brand-colour1);
 }
 
 .img-thumbnail {
@@ -84,21 +84,44 @@ i {
 }
 
 a.navbar-brand {
-	color: white;
-	font-weight: bolder;
+	color: var(--brand-colour1);
 }
 
 a.navbar-brand:hover {
-	color: white;
-	font-weight: bolder;
+	color: var(--brand-colour2);
 }
 
 a.nav-link {
-	color: white;
+	color: var(--brand-colour1);
+	text-align: right;
 }
 a.nav-link:hover {
-	color: white;
+	color: var(--brand-colour2);
 	text-transform: scale(2);
+}
+
+a.youtube-icon {
+	color: var(--brand-colour2);
+}
+
+a.instagram-icon {
+	color: var(--brand-colour2);
+}
+
+a.linkedin-icon {
+	color: var(--brand-colour2);
+}
+
+a.facebook-icon {
+	color: var(--brand-colour2);
+}
+
+a.tiktok-icon {
+	color: var(--brand-colour2);
+}
+
+a.github-icon {
+	color: var(--brand-colour2);
 }
 
 button.btn-primary {
@@ -115,6 +138,10 @@ button.btn-outline-secondary {
 	border: 2px var(--brand-colour3);
 	padding: 20px 30px;
 	border-radius: 10px;
+}
+
+i.fa-brands {
+	color: var(--brand-colour1);
 }
 
 li.footer-icon {

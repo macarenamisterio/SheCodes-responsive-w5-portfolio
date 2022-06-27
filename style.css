@@ -1,8 +1,8 @@
 :root {
-	--brand-colour1: #6c63ff;
+	--brand-colour1: #6860f8c4;
 	--brand-colour2: #a5a0f8;
-	--brand-colour3: #afafaf;
-	--brand-colour4: #818080;
+	--brand-colour3: #6c63ff;
+	--brand-colour4: #6b6a6a;
 	--brand-colour5: #c0c0c0;
 	--background-colour-primary: #fcfcff;
 	--background-colour-secondary: white;
@@ -14,30 +14,25 @@ body {
 
 h1 {
 	color: var(--brand-colour1);
-	text-transform: capitalize;
-	font-size: 40px;
 }
 
 h2 {
 	color: var(--brand-colour2);
-	text-transform: uppercase;
-}
-
-h3 {
-	color: var(--brand-colour1);
-	font-size: 26px;
-	letter-spacing: 1;
 	text-transform: capitalize;
 }
 
+h3 {
+	color: var(--brand-colour3);
+	text-transform: uppercase;
+}
+
 h4 {
-	font-size: 22px;
-	color: var(--brand-colour1);
+	color: var(--brand-colour4);
 }
 
 h5 {
 	color: var(--brand-colour5);
-	font-size: 10px;
+	text-transform: capitalize;
 }
 
 p {
@@ -63,9 +58,18 @@ i {
 	color: var(--brand-colour1);
 }
 
+hr {
+	border: 10px solid #a5a0f8;
+}
+
+nav {
+	background-image: url("navbar-1s-1084px.svg");
+}
+
 .hero {
 	padding-top: 100px;
 	padding: 30px;
+	background-color: #f3f3ff;
 }
 
 .row {
@@ -125,17 +129,17 @@ a.github-icon {
 	color: var(--brand-colour2);
 }
 
-button.btn-primary {
-	background-color: var(--brand-colour1);
+button.btn-outline-secondary {
+	background-color: var(--brand-colour2);
 	color: white;
+	border: 2px var(--brand-colour3);
 	padding: 20px 30px;
-	width: auto;
 	border-radius: 10px;
 }
 
-button.btn-outline-secondary {
-	background-color: white;
-	color: var(--brand-colour3);
+button.btn-outline-secondary:hover {
+	background-color: var(--brand-colour5);
+	color: white;
 	border: 2px var(--brand-colour3);
 	padding: 20px 30px;
 	border-radius: 10px;
@@ -151,6 +155,7 @@ hr.footer-line {
 
 h1.h1-hero {
 	color: var(--brand-colour1);
+	font-size: 40px;
 }
 
 h2.h2-hero {
@@ -160,18 +165,32 @@ h2.h2-hero {
 
 h3.h3-hero {
 	color: var(--brand-colour3);
+	font-size: 17;
 }
 
 h4.h4-hero {
 	color: var(--brand-colour4);
+	font-size: 15;
 }
 
 h5.h5-hero {
-	color: var(--brand-colour5);
-	font-size: 20px;
+	color: var(--brand-colour1);
+	font-size: 13px;
+	margin-top: 0px;
 }
 
-h2. h3.card-name {
+p.p-hero {
+	color: var(--brand-colour4);
+	font-family: "Cambay", sans-serif;
+	font-size: 14px;
+	line-height: 1.6;
+}
+
+h4.h4-work {
+	color: var(--brand-colour4);
+}
+
+h2.card-name {
 	color: var(--brand-colour2);
 }
 
@@ -183,12 +202,4 @@ li.footer-icon {
 	display: inline;
 	float: right;
 	padding-left: 15px;
-}
-
-p {
-	color: var(--brand-colour4);
-	font-family: "Cambay", sans-serif;
-	font-size: 14px;
-	line-height: 1.6;
-	padding: 30px;
 }

@@ -23,7 +23,7 @@ h2 {
 
 h3 {
 	color: var(--brand-colour3);
-	text-transform: uppercase;
+	text-transform: capitalize;
 }
 
 h4 {
@@ -32,7 +32,7 @@ h4 {
 
 h5 {
 	color: var(--brand-colour5);
-	text-transform: capitalize;
+	text-transform: uppercase;
 }
 
 p {
@@ -62,6 +62,23 @@ hr {
 	border: 10px solid #a5a0f8;
 }
 
+.h1-white {
+	color: var(--background-colour-secondary);
+	font-size: 40px;
+}
+
+.p-white {
+	color: var(--background-colour-secondary);
+	font-family: "Cambay", sans-serif;
+	font-size: 14px;
+	line-height: 1.6;
+	margin: auto;
+}
+
+.form {
+	margin-top: 50px;
+}
+
 .hero {
 	padding-top: 100px;
 	padding: 30px;
@@ -78,6 +95,11 @@ hr {
 
 .img-thumbnail {
 	max-height: 70px;
+}
+
+.newsletter-form {
+	background-color: var(--brand-colour2);
+	border-radius: 10px;
 }
 
 .text-muted {
@@ -125,11 +147,19 @@ a.github-icon {
 	color: var(--brand-colour2);
 }
 
+button.button-subscribe {
+	background-color: var(--brand-colour3);
+	color: white;
+	border: 2px var(--brand-colour3);
+	padding: 10px 15px;
+	border-radius: 10px;
+}
+
 button.btn-outline-secondary {
 	background-color: var(--brand-colour2);
 	color: white;
 	border: 2px var(--brand-colour3);
-	padding: 20px 30px;
+	padding: 10px 15px;
 	border-radius: 10px;
 }
 
@@ -137,7 +167,7 @@ button.btn-outline-secondary:hover {
 	background-color: var(--brand-colour5);
 	color: white;
 	border: 2px var(--brand-colour3);
-	padding: 20px 30px;
+	padding: 10px 15px;
 	border-radius: 10px;
 }
 
@@ -171,7 +201,7 @@ h4.h4-hero {
 
 h5.h5-hero {
 	color: var(--brand-colour1);
-	font-size: 13px;
+	font-size: 12px;
 	margin-top: 0px;
 }
 

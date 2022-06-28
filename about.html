@@ -4,29 +4,85 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="description" content="Front-end Developer based in Melbourne" />
-		<title>About Me</title>
+		<meta name="description" content="Responsive Frontends" />
+		<!--CSS-->
 		<link rel="stylesheet" href="style.css" type="text/css" />
+		<title>Macarena Castillo Portfolio</title>
+
+		<!--Bootstrap-->
 		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
 			rel="stylesheet"
-			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+			integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
 			crossorigin="anonymous"
 		/>
+		<!-- JavaScript Bundle with Popper -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+			crossorigin="anonymous"
+		></script>
 
+		<!-- GOOGLE FONTS -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Cambay&family=Kalam:wght@300&display=swap"
 			rel="stylesheet"
 		/>
+
+		<script
+			src="https://kit.fontawesome.com/2b51f53a61.js"
+			crossorigin="anonymous"
+		></script>
 	</head>
 	<body>
+		<!-- NAVIGATION BAR -->
+		<nav class="navbar navbar-expand-lg sticky-top bg-light">
+			<div class="brandcolor2 container-fluid">
+				<img
+					src="src/MM.svg"
+					alt="Logo Macarena Misterio"
+					class="d-inline-block align-text-top d-md-none"
+					height="100"
+					href="index.html"
+				/>
+				<a class="d-none d-md-block navbar-brand" href="index.html"
+					>Macarena Castillo</a
+				>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav text-right">
+						<li class="nav-item">
+							<a class="nav-link d-md-none" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="about.html">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- CONTAINER 1 -->
+
 		<div class="container">
 			<div class="row mt-5">
 				<div class="col p-3">
-					<h1>Macarena Castillo</h1>
-					<h2>Front-end Developer</h2>
+					<h1 class="h1-hero">Macarena Castillo</h1>
+					<h2 class="h2-hero">Front-end Developer</h2>
 					<p>
 						I'm originally from Chile, but I've been living in Melbourne for the
 						past 8 years. My hobbies are knitting, hiking, swimming, eating and
@@ -45,9 +101,103 @@
 				</div>
 				<div class="col p-3">
 					<img src="src/Maca & Hunter.JPG" alt="" />
-					<h5 class="mt-2">Hunter and I in Tasmania</h5>
+					<h5 class="h5-hero mt-2">Hunter and I in Tasmania</h5>
 				</div>
 			</div>
 		</div>
+		<!-- CONTAINER 2 -->
+
+		<div class="container">
+			<div class="row mt-5">
+				<div class="col p-3">
+					<h1 class="h1-hero">Macarena Castillo</h1>
+					<h2 class="h2-hero">Front-end Developer</h2>
+					<p>
+						I'm originally from Chile, but I've been living in Melbourne for the
+						past 8 years. My hobbies are knitting, hiking, swimming, eating and
+						going for adventures with my furry baby Hunter. I work as a project
+						manager and last year I decided to upskill myself and I joined the
+						free intro to coding class with Mat Delac. It was super interesting
+						and Mat made it feel that it was easy so I decided to take the whole
+						course and so far I'm loving it!
+						<br />
+						I totally recommend
+						<a href="shecodes.io" target="_blank">SheCodes</a> as it is a course
+						that you can definetely start with zero knowledge and see the
+						progress througout the different modules, you can learn at your own
+						pace and it is easy to understand.
+					</p>
+				</div>
+				<div class="col p-3">
+					<img src="src/Maca & Hunter.JPG" alt="" />
+					<h5 class="h5-hero mt-2">Hunter and I in Tasmania</h5>
+				</div>
+			</div>
+		</div>
+		<!--FOOTER-->
+		<div class="">
+			<footer class="mt-3 mb-5">
+				<div class="container">
+					<span class="text-muted"
+						>Macarena Castillo - All Rights Reserved © 2022</span
+					>
+					<!--ICONS-->
+					<ul class="icons align-self-center">
+						<li class="footer-icon">
+							<a
+								class="facebook-icon"
+								href="https://www.facebook.com/macarena.misterio"
+								target="_blank"
+								><i class="fa-brands fa-facebook"></i
+							></a>
+						</li>
+						<li class="footer-icon">
+							<a
+								class="instagram-icon"
+								href="https://www.instagram.com/macarena.misterio/"
+								target="_blank"
+							>
+								<i class="fa-brands fa-instagram"></i>
+							</a>
+						</li>
+						<li class="footer-icon">
+							<a
+								class="linkedin-icon"
+								href="https://www.linkedin.com/in/macarenamisterio/"
+								target="_blank"
+							>
+								<i class="fa-brands fa-linkedin"></i>
+							</a>
+						</li>
+						<li class="footer-icon">
+							<a
+								class="tiktok-icon"
+								href="https://www.tiktok.com/@macarena.misterio"
+								target="_blank"
+							>
+								<i class="fa-brands fa-tiktok"></i>
+							</a>
+						</li>
+						<li class="footer-icon">
+							<a
+								class="youtube-icon"
+								href="https://www.youtube.com/channel/UCD2NXevDEb-RCvhNgDCV8Hw/videos"
+								target="_blank"
+							>
+								<i class="fa-brands fa-youtube"></i>
+							</a>
+						</li>
+						<li class="footer-icon">
+							<a
+								class="github-icon"
+								href="https://github.com/macarenamisterio"
+								target="_blank"
+							>
+								<i class="fa-brands fa-github"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
 	</body>
 </html>

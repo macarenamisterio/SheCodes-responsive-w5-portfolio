@@ -62,14 +62,10 @@ hr {
 	border: 10px solid #a5a0f8;
 }
 
-nav {
-	background-image: url("navbar-1s-1084px.svg");
-}
-
 .hero {
 	padding-top: 100px;
 	padding: 30px;
-	background-color: #f3f3ff;
+	background-color: var(--background-colour-secondary);
 }
 
 .row {
@@ -89,19 +85,19 @@ nav {
 }
 
 a.navbar-brand {
-	color: var(--brand-colour1);
+	color: var(--background-colour-secondary);
 }
 
 a.navbar-brand:hover {
-	color: var(--brand-colour2);
+	color: var(--background-colour-secondary);
 }
 
 a.nav-link {
-	color: var(--brand-colour1);
+	color: var(--background-colour-secondary);
 	text-align: right;
 }
 a.nav-link:hover {
-	color: var(--brand-colour2);
+	color: var(--brand-colour3);
 	text-transform: scale(2);
 }
 
@@ -202,4 +198,17 @@ li.footer-icon {
 	display: inline;
 	float: right;
 	padding-left: 15px;
+}
+
+div.brandcolor2 {
+	background-color: var(--brand-colour2);
+}
+
+nav.navbar {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+div.work {
+	background-color: var(--background-colour-primary);
 }
